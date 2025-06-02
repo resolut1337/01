@@ -12,8 +12,8 @@ let sortedDescending = [...arr].sort((a, b) => b - a);
 console.log("Масив за спаданням:", sortedDescending);
 
 let half = Math.floor(arr.length / 2);
-arr = arr.map((val, index) => index >= half ? 0 : val);
-console.log("Після заповнення другої половини нулями:", arr);
+arr2 = arr.map((val, index) => index >= half ? 0 : val);
+console.log("Після заповнення другої половини нулями:", arr2);
 
 arr.splice(0, 3);
 console.log("Після видалення перших 3 елементів:", arr);
